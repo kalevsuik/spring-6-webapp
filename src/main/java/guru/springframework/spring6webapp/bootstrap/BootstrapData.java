@@ -7,7 +7,6 @@ import guru.springframework.spring6webapp.repositories.AuthorRepository;
 import guru.springframework.spring6webapp.repositories.BookRepository;
 import guru.springframework.spring6webapp.repositories.PublisherRepository;
 
-import java.util.HashSet;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
