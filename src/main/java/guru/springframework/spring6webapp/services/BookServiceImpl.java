@@ -8,7 +8,7 @@ import guru.springframework.spring6webapp.repositories.BookRepository;
 
 @Service
 public class BookServiceImpl implements BookService{
-    private BookRepository bookRepository;
+    private final BookRepository bookRepository;
 
     public BookServiceImpl(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
